@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bone Age Prediction</title>
+</head>
+<body>
+    <h2>Upload X-Ray untuk Prediksi Usia</h2>
+
+    <form action="/predict" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if result %}
+        <h3>Top-1: {{ result.top1 }} tahun</h3>
+        <h4>Top-3 Prediksi:</h4>
+        <ul>
+            {% for item in result.top3 %}
+                <li>{{ item.age }} tahun — Prob: {{ item.prob }}%</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
