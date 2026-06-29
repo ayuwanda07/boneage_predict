@@ -4,6 +4,12 @@ Sistem berbasis web untuk memprediksi dan mengestimasi usia tulang (*Bone Age As
 
 ---
 
+**📁 Struktur Folder Utama**
+- /bone_age -> untuk back-end
+- /bone-age-assesment -> untuk front-end
+- /notebook -> notebook untuk training model
+
+
 ## 🚀 Tech Stack
 
 ### Frontend
@@ -63,17 +69,4 @@ npm run dev
 
 default akan berjalan di http://localhost:3000
 
-=============================================================================================
-**📁 Struktur Folder Utama**
-├── bone_age/                  # Backend Directory (Flask)
-│   ├── venv/                  # Python Virtual Environment
-│   ├── models/                # File bobot model (.pth / .bin)
-│   ├── app.py                 # File utama Flask API
-│   └── requirements.txt       # Daftar library Python
-│
-└── bone-age-assessment/       # Frontend Directory (Next.js)
-    ├── app/                   # Next.js App Router (Components & Pages)
-    ├── public/                # Aset statis (Gambar, Icon)
-    ├── package.json           # Dependensi Node.js
-    ├── tailwind.config.ts     # Konfigurasi Tailwind CSS
-    └── tsconfig.json          # Konfigurasi TypeScript
+
