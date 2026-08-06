@@ -39,12 +39,6 @@ The model was rigorously tested and evaluated. Below are the key metrics achieve
 📜 License
 Distributed under a Custom Non-Commercial License. This code and its derivations may not be used for commercial purposes or academic plagiarism.
 
-📞 Contact
-Ayu Wanda Azalia
-Politeknik Elektronika Negeri Surabaya (PENS)
-LinkedIn: [https://www.linkedin.com/in/ayuwandaaz/]
-Email: [Iayuwandaazalia@gmail.com]
-
 
 
 
